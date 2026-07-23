@@ -1,7 +1,28 @@
 aid: apla-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apla-inc.png
 name: Apla, Inc.
-description: Apla, Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Apla, Inc. (aplahub.com) was an AI-based accounting and bookkeeping
+  platform based in Santa Clara, California, founded in 2023. Aplá targeted early-stage
+  startups and accountants working in QuickBooks Online, offering automated expense
+  categorization, transaction and expense management, bookkeeping, and financial reporting,
+  and shipped a "Vendor Search" Chrome extension that retrieved vendor details inside
+  QuickBooks Online. Surfaced as a portfolio company of 500 Global and added to the
+  API Evangelist network as a lead. As of this enrichment pass the company appears
+  inactive: the aplahub.com origin is unreachable (HTTP 522/525 behind Cloudflare)
+  and third-party trackers list it as deadpooled. No public API, developer portal,
+  OpenAPI, or SDK surface could be found; the only developer-facing artifact located
+  was the QuickBooks Online Chrome extension.'
 url: https://raw.githubusercontent.com/api-evangelist/apla-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +35,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Accounting
+- Bookkeeping
+- Fintech
+- Expense Management
+- QuickBooks
+- Artificial Intelligence
+- Small Business
+x-status: inactive-suspected
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/apla-inc-domain-security.yml
 - type: Website
   url: https://aplahub.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
