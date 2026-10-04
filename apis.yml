@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apla-inc.png
-name: Apla, Inc.
+name: Apla
 description: 'Apla, Inc. (aplahub.com) was an AI-based accounting and bookkeeping
   platform based in Santa Clara, California, founded in 2023. Aplá targeted early-stage
   startups and accountants working in QuickBooks Online, offering automated expense
@@ -70,3 +70,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Apla, Inc.
